@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Services | Explore Pakistan</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-services">
+<nav class="navbar"><a class="logo" href="index.html">Explore <span>Pakistan</span></a>
+<button class="menu-btn" aria-label="Menu">&#9776;</button><ul class="nav-links"><li><a href="index.html">Home</a></li>
+<li><a href="media.html">Gallery & Info</a></li><li><a href="services.html" class=active>Services</a></li><li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="contact.html">Contact</a></li><li><a href="register.html">Register</a></li></ul></nav>
+<header class="banner"><h1>Our Services</h1><p>Guided tour packages for every region.</p></header>
+<section class="section"><h2 class="section-title">Tour packages</h2><p class="section-sub">Filter by region, then calculate your cost.</p>
+<div class="filters"><button class=on data-region="All">All</button><button data-region="Gilgit-Baltistan">Gilgit</button><button data-region="Kashmir">Kashmir</button>
+<button data-region="Punjab">Punjab</button><button data-region="Sindh">Sindh</button><button data-region="KPK">KPK</button><button data-region="Balochistan">Balochistan</button></div>
+<div class="grid" id="packages"></div></section>
+<section class="section alt" id="calc"><h2 class="section-title">Cost calculator</h2><p class="section-sub">Groups of 5 or more get 10% off.</p><form class="calc">
+<div class="field"><label for="tourSelect">Tour</label><select id="tourSelect"></select></div>
+<div class="field"><label for="people">Travellers</label><input type="number" id="people" min="1" value="2"></div>
+<div class="checkline"><input type="checkbox" id="hotel"><label for="hotel" style="margin:0">Upgrade to 4-star hotels (+20%)</label></div>
+<button type="button" class="btn" id="calcBtn">Calculate</button><div class="result" id="result"></div></form></section>
+<section class="section"><h2 class="section-title">Frequently asked questions</h2><p class="section-sub">Click a question to open it.</p><div class="faq">
+<div class="faq-item"><div class="faq-q">What is included in the price?<span>+</span></div><div class="faq-a">Transport, accommodation, breakfast and a local guide.</div></div>
+<div class="faq-item"><div class="faq-q">Can I cancel a booking?<span>+</span></div><div class="faq-a">Yes, up to 7 days before departure for a full refund.</div></div>
+<div class="faq-item"><div class="faq-q">Do you arrange custom tours?<span>+</span></div><div class="faq-a">Yes. Use the contact page to tell us your dates and places.</div></div></div></section>
+<footer><p>&copy; 2026 Explore <span>Pakistan</span></p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>

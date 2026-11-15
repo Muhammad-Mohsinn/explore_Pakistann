@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery & Info | Explore Pakistan</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-media">
+<nav class="navbar"><a class="logo" href="index.html">Explore <span>Pakistan</span></a>
+<button class="menu-btn" aria-label="Menu">&#9776;</button><ul class="nav-links"><li><a href="index.html">Home</a></li>
+<li><a href="media.html" class=active>Gallery & Info</a></li>
+<li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="contact.html">Contact</a></li><li><a href="register.html">Register</a></li></ul></nav>
+<header class="banner"><h1>Gallery &amp; Info</h1><p>Photos and facts from every region.</p></header>
+<section class="section"><div class="info"><h2 class="section-title">About Pakistan</h2>
+<p>Pakistan stretches from the Arabian Sea to the Karakoram. It has four provinces, Gilgit-Baltistan and Azad Kashmir, each with its own food, language and landscape. Use the filters to browse photos by region and click a photo to enlarge it.</p></div>
+<div class="filters"><button class=on data-region="all">All</button><button data-region="gilgit">Gilgit</button>
+<button data-region="kashmir">Kashmir</button><button data-region="punjab">Punjab</button><button data-region="sindh">Sindh</button>
+<button data-region="kpk">KPK</button><button data-region="balochistan">Balochistan</button></div>
+<div class="gallery" id="gallery"></div></section>
+<div class="overlay lightbox" id="lightbox"><span class="close" id="closeBox">&times;</span>
+<span class="nav-arrow" id="prev">&#10094;</span><div><img id="boxImg" src="" alt=""><p class="cap" id="boxCap"></p></div>
+<span class="nav-arrow" id="next">&#10095;</span></div>
+<footer><p>&copy; 2026 Explore <span>Pakistan</span></p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>

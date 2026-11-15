@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Register | Explore Pakistan</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-register">
+<nav class="navbar"><a class="logo" href="index.html">Explore <span>Pakistan</span></a>
+<button class="menu-btn" aria-label="Menu">&#9776;</button><ul class="nav-links"><li><a href="index.html">Home</a></li>
+<li><a href="media.html">Gallery & Info</a></li><li><a href="services.html">Services</a></li>
+<li><a href="portfolio.html">Portfolio</a></li><li><a href="contact.html">Contact</a></li><li><a href="register.html" class=active>Register</a></li></ul></nav>
+<header class="banner"><h1>Register</h1><p>Create your traveller account.</p></header>
+<section class="section"><form id="regForm" novalidate>
+<div class="field"><label for="fullname">Full name</label><input type="text" id="fullname"><div class="error" id="fullnameErr"></div></div>
+<div class="field"><label for="email">Email</label><input type="email" id="email"><div class="error" id="emailErr"></div></div>
+<div class="field"><label for="phone">Phone</label><input type="tel" id="phone" placeholder="03XX-XXXXXXX"><div class="error" id="phoneErr"></div></div>
+<div class="field"><label for="password">Password</label><input type="password" id="password"><div class="strength"><div></div></div>
+<span class="show-pw" id="showPw">Show / hide password</span><div class="error" id="passwordErr"></div></div>
+<div class="field"><label for="region">Favourite region</label><select id="region"><option value="">Choose a region</option><option>Gilgit-Baltistan</option>
+<option>Kashmir</option><option>Punjab</option><option>Sindh</option><option>KPK</option><option>Balochistan</option></select><div class="error" id="regionErr"></div></div>
+<div class="field"><label>Interests</label><div class="checks"><label><input type="checkbox" value="Hiking">Hiking</label>
+<label><input type="checkbox" value="History">History</label><label><input type="checkbox" value="Food">Food</label>
+<label><input type="checkbox" value="Photography">Photography</label></div></div>
+<button class="btn" type="submit">Create account</button><div class="ok-box" id="success"></div></form></section>
+<footer><p>&copy; 2026 Explore <span>Pakistan</span></p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
